@@ -1,0 +1,47 @@
+#hobies {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#hobies > div {
+  text-align: center;
+  margin: 3rem;
+  width: 80%;
+}
+#hobies > div div {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 2rem 0;
+  border-radius: 7px;
+  padding: 2rem 0;
+  padding-right: 2rem;
+}
+#hobies > div div iframe {
+  height: 20rem;
+}
+#hobies > div div * {
+  flex: 0 1 35rem;
+}
+
+
+ @media screen and (max-width:600px) {
+  #hobies p {
+    text-align: justify;
+  }
+  #hobies div {
+    width: 100%;
+    margin: 0;
+  }
+  #hobies > div div {
+    border-radius: 0;
+    padding-right: 0;
+  }
+  #hobies > div div * {
+    flex: 1 1 15;
+    max-width: 100%;
+  }
+} 

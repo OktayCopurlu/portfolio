@@ -1,0 +1,107 @@
+html{
+  scroll-behavior: smooth;
+}
+#about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}
+#about-text {
+  max-width: 40rem;
+}
+#about img {
+  margin: 2rem;
+  max-height: 34rem;
+}
+#about p {
+  margin: 2rem 0;
+  text-align: start;
+}
+#about h1 {
+  margin: 2rem 0;
+  text-align: center;
+}
+th:first-child {
+  text-align: start;
+  width: 6rem;
+}
+td {
+  padding: 0.8rem;
+}
+table {
+  margin-bottom: 2rem;
+}
+#personal-info > ul a:first-child {
+  border: 1px solid #3866af;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  background-color: #3866af;
+  color: white;
+  font-size: large;
+}
+
+#personal-info > ul a:hover {
+  opacity: 0.8;
+}
+
+#personal-info {
+  margin-bottom: 2rem;
+}
+#personal-info > ul {
+  display: flex;
+  align-items: center;
+}
+#personal-info > ul a {
+  font-size: 4rem;
+  margin-right: 2rem;
+}
+
+table span a:hover {
+  color: red;
+}
+#free-market{
+  color : red;
+  font-weight: bold;
+}
+
+#free-market:hover{
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 600px) {
+  #about p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  #about-text {
+    margin: 0 1rem;
+  }
+  #about img {
+    margin: 0;
+    width: 100%;
+  }
+  #personal-info > ul a {
+    font-size: 3rem;
+    margin-right: 2rem;
+  }
+  #personal-info > ul a:first-child {
+    padding: 0.8rem 2.3rem;
+    font-size: medium;
+  }
+  #personal-info > ul {
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #personal-info > ul a:first-child {
+    border: 1px solid #3866af;
+    border-radius: 5px;
+    padding: 0.7rem 1.2rem;
+    background-color: #3866af;
+    color: white;
+    font-size: large;
+  }
+  
+}
